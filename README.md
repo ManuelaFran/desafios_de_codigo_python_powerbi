@@ -1,12 +1,9 @@
 # Desafios de código Python e Power BI - Análise de Dados
 
-##Descrição:<br>
-Você está trabalhando em um projeto de Power BI onde precisa analisar dados de vendas mensais de uma empresa.<br>
-Em Power BI, os dados são frequentemente representados em tabelas, e você precisa calcular alguns indicadores básicos.<br>
-Sua tarefa é calcular o total de vendas e a média mensal de vendas que serão usados para gerar relatórios e gráficos no Power BI,<br>
-além de criar uma lista em Python para calcular o total de vendas e a sua média mensal.<br>
+## Descrição:<br>
+Você está trabalhando em um projeto de Power BI onde precisa analisar dados de vendas mensais de uma empresa. Em Power BI, os dados são frequentemente representados em tabelas, e você precisa calcular alguns indicadores básicos. Sua tarefa é calcular o total de vendas e a média mensal de vendas que serão usados para gerar relatórios e gráficos no Power BI, além de criar uma lista em Python para calcular o total de vendas e a sua média mensal.<br>
 
-###Detalhamento:<br>
+### Detalhamento:<br>
 
 Na função obter_entrada_vendas() você deverá:<br>
 
@@ -18,13 +15,13 @@ Na função obter_entrada_vendas() você deverá:<br>
 
 Essa lista de inteiros representará os valores de vendas que serão utilizados para calcular o total e a média mensal de vendas em outra função.<br>
 
-##Entrada<br>
+## Entrada<br>
 Uma lista com 12 números inteiros, cada um representando o número de vendas realizadas em um mês do ano.<br>
 
-##Saída<br>
+## Saída<br>
 Um único número inteiro representando o total de vendas e um número decimal representando a média mensal de vendas, separados por um espaço.<br>
 
-##Exemplos<br>
+## Exemplos<br>
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.<br>
 
 | Entrada                                                    | Saída        |

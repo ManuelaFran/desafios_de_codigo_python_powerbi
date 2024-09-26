@@ -3,3 +3,14 @@ def analise_vendas(vendas):
     media_vendas = total_vendas / len(vendas)
 
     return f"{total_vendas}, {media_vendas:.2f}"
+
+
+def obter_entrada_vendas():
+    entrada = input()
+    vendas = list(map(int, entrada.split(',')))
+
+    return vendas
+
+
+vendas = obter_entrada_vendas()
+print(analise_vendas(vendas))

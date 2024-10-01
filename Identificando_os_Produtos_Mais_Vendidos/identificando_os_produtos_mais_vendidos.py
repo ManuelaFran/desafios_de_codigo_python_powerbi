@@ -17,4 +17,13 @@ def produto_mais_vendido(produtos):
 
     return max_produto
 
-def obter_entrada_produto():
+
+def obter_entrada_produtos():
+    entrada = input()
+    produtos = [produto.strip() for produto in entrada.split(',')]
+
+    return produtos
+
+
+produtos = obter_entrada_produtos()
+print(produto_mais_vendido(produtos))
